@@ -1,0 +1,62 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Estilos para los campos de entrada y el botón */
+textarea,
+button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Estilos para los botones de opción */
+input[type="radio"] {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+/* Estilos para el área de resultados */
+#result {
+  font-size: 16px;
+}
+
+/* Estilos para el botón de copiar al portapapeles */
+#copy-button {
+  background-color: #2196F3;
+}
+
+#copy-button:hover {
+  background-color: #0b7dda;
+}
