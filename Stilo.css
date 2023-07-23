@@ -113,7 +113,8 @@ main{
 
 .informacion {
   color: #495057;
-  font-size:18px;
+  font-size:25px;
+  margin-bottom: 5%;
 }
  
 .btn-copiar {
@@ -136,11 +137,19 @@ main{
   font-size: 18px;
   text-align: center;
 }
-/*.btn-copiar:hover {
+.btn-copiar:hover {
   margin:0.3%;
   width: 24.5%;
   padding: 1.8%;
 }
+.informa {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  margin-left: 5px;
+  padding-top: 200px;
+
+}
+
   
 
 /* Responsive design 

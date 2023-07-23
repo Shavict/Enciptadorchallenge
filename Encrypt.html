@@ -16,21 +16,26 @@
             <div class="container">
                 <textarea name="inputText" id="input-text" class="text-area" placeholder="Ingresa el texto aquí"></textarea>
                 <div>
-                    <h6 class="information">solo minúsculas y sin acentos</h6>
+                    <h6 class="informacion">solo minúsculas y sin acentos</h6>
                 </div>
                 <div class="button">
-                    <button class="btn-encrypt" onclick="encryptText()">Encriptar</button>
-                    <button class="btn-decrypt" onclick="decryptText()">Desencriptar</button>
+                    <button class="btn-encrypt" onclick="convertText('encrypt')">Encriptar</button>
+                    <button class="btn-decrypt" onclick="convertText('decrypt')">Desencriptar</button>
                 </div>
-            </div>
+               </div>
         </section>
         <section>
-            <textarea class="mensaje"  cols="20" rows="30"></textarea>
-                <div>
-                    <button class="btn-copiar" onclick="copyText()">Copiar</button>
-                </div>           
+            <textarea class="mensaje" id="encrypted-text" cols="20" rows="30"></textarea>
+            <div>
+                <button class="btn-copiar" onclick="copiar()" style="display: none;">Copiar</button>
+            </div>           
         </section>
     </main>
+    <div>
+    <footer>
+        <p class = "informa">© SGLuca</p>
+    </footer>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
